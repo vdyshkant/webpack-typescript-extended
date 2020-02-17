@@ -1,0 +1,24 @@
+{
+  "name": "webpack-typescript-extended",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdyshkant/webpack-typescript-extended.git"
+  },
+  "keywords": [
+    "javascript",
+    "webpack",
+    "ecmascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdyshkant/webpack-typescript-extended/issues"
+  },
+  "homepage": "https://github.com/vdyshkant/webpack-typescript-extended#readme"
+}
