@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/vdyshkant/webpack-typescript-extended/issues"
   },
-  "homepage": "https://github.com/vdyshkant/webpack-typescript-extended#readme"
+  "homepage": "https://github.com/vdyshkant/webpack-typescript-extended#readme",
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
 }
