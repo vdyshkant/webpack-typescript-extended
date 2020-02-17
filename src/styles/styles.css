@@ -1,0 +1,11 @@
+
+.container {
+  padding-top: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 2px dashed gold;
+}
+
+h1 {
+  text-align: center;
+}
