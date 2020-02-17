@@ -1,6 +1,6 @@
-import Post from './Post'
+import Post from '@models/Post'
 import './styles/styles.css'
-import Logo from './assets/logo.png'
+import Logo from '@/assets/logo.png'
 
 const post = new Post('Webpack Post Title', Logo)
 
