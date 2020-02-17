@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/vdyshkant/webpack-typescript-extended#readme",
   "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
     "html-webpack-plugin": "^3.2.0",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
