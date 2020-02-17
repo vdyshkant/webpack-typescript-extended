@@ -5,7 +5,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 const isDev = process.env.NODE_ENV === 'development'
-console.log('IS DEV: ', isDev)
+console.log('===================== IS DEV: ', isDev)
 
 
 module.exports = {
