@@ -4,6 +4,7 @@ import React from 'react'
 import {render} from 'react-dom'
 import './babel'
 import './styles/index.scss'
+import Contact from "./sections/Contact";
 
 const post = new Post('Webpack Post Title', Logo)
 
@@ -12,6 +13,8 @@ console.log('Post to String:', post.toString())
 const App = () => {
   return (
     <div className="container">
+
+      <Contact />
       <h1>Webpack conf init</h1>
 
       <hr/>
