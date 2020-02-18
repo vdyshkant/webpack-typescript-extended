@@ -89,7 +89,7 @@ const plugins = () => {
     new CleanWebpackPlugin(),
     new CopyWebpackPlugin([
       {
-        from: path.resolve(__dirname, 'src/favicon.png'),
+        from: path.resolve(__dirname, 'src/assets/favicon.png'),
         to: path.resolve(__dirname, 'dist')
       }
     ]),
