@@ -1,0 +1,74 @@
+@mixin resetButton {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+
+  &:focus,
+  &:active {
+    outline: none;
+  }
+}
+
+@mixin make-container() {
+  padding-right: ($grid-gutter-width / 2);
+  padding-left: ($grid-gutter-width / 2);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@mixin media-up($breakpoint) {
+  $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+  @media (min-width: $breakpoint-value) {
+    @content;
+  }
+}
+
+@mixin media-down($breakpoint) {
+  $breakpoint-value: map-get($breakpoints, $breakpoint);
+
+  @media screen and (max-width: ($breakpoint-value - 1)) {
+    @content;
+  }
+}
+
+@mixin title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+@mixin button {
+  width: 178px;
+  height: 48px;
+  outline: none;
+  border: none;
+  background: #4D4DD1;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: 300ms ease-out;
+
+  &:hover {
+    @include media-up(md) {
+      cursor: pointer;
+      background: #1A2024;
+    }
+  }
+
+  &.disabled {
+    cursor: default;
+    background: #D5D9E0;
+  }
+}
