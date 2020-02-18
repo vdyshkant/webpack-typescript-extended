@@ -3,8 +3,7 @@ import Logo from '@/assets/logo.png'
 import React from 'react'
 import {render} from 'react-dom'
 import './babel'
-import './styles/styles.css'
-import './styles/scss.scss'
+import './styles/index.scss'
 
 const post = new Post('Webpack Post Title', Logo)
 
