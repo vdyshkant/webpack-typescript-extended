@@ -1,5 +1,6 @@
 import Post from '@models/Post'
 import Logo from '@/assets/logo.png'
+import './babel'
 import './styles/styles.css'
 import './styles/scss.scss'
 

@@ -107,6 +107,11 @@ module.exports = {
         test: /\.(ttf|woff|woff2|eot)$/,
         use: ['file-loader']
       },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: 'babel-loader'
+      }
     ]
   }
 }
