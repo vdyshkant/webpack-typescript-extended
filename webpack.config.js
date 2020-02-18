@@ -118,7 +118,7 @@ module.exports = {
   },
   resolve: {
     // if we do not specify extension for imported files, webpack, please, search files with extensions below:
-    extensions: ['.js'],
+    extensions: ['.js', '.jsx'],
     alias: {
       '@models': path.resolve(__dirname, 'src/models'),
       '@': path.resolve(__dirname, 'src')
