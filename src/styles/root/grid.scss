@@ -30,5 +30,5 @@ $col-prop: ('hidden', 'not-hidden', 'first', 'not-first', 'last', 'not-last');
 $wrap-gutter: (0, 8, 16, 24, 40);
 $wrap-outside: (0, 8, 16, 24, 40);
 
-@import 'node_modules/flexiblegs-scss/flexiblegs-scss';
-@import 'node_modules/flexiblegs-scss-plus/flexiblegs-scss-plus';
+@import '~flexiblegs-scss';
+@import '~flexiblegs-scss-plus';

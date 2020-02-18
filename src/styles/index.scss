@@ -4,4 +4,42 @@
 @import 'root/variables.scss';
 @import 'root/mixins.scss';
 @import 'root/grid.scss';
-@import 'root/overflow-grid.scss';
+@import 'root/grid-overflow.scss';
+
+
+// BEGIN test styles:
+
+.container {
+  padding-top: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 2px dashed crimson;
+}
+
+h1 {
+  text-align: center;
+}
+
+.logo {
+  background-image: url('../assets/logo.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+$border: 1px solid darkcyan;
+
+.card {
+  padding: 1rem;
+  border-radius: 5px;
+  border: $border;
+
+  h2 {
+    text-align: center;
+    color: magenta;
+  }
+}
+
+// END OF test styles
