@@ -55,6 +55,7 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.8.3",
+    "antd": "^3.26.11",
     "flexiblegs-scss": "^5.6.0",
     "flexiblegs-scss-plus": "^5.6.0",
     "react": "^16.12.0",
