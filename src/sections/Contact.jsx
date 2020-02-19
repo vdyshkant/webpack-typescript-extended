@@ -1,10 +1,13 @@
 import React from 'react'
-import { Formik, Form as FormikForm, Field, ErrorMessage } from 'formik'
+import { withFormik } from 'formik'
+// Formik, Form as FormikForm, Field, ErrorMessage
 import 'antd/dist/antd.css';
 import { Form, Icon, Input, Button } from 'antd'
 const FormItem = Form.Item
 
 const Contact = () => {
+
+  // https://github.com/jannikbuschke/formik-antd
 
   return (
     <section className="section-contact">
@@ -13,9 +16,27 @@ const Contact = () => {
         <div>
           <Form.Item>
             <Input
+              name="name"
               prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
               placeholder="Username"
             />
+          </Form.Item>
+          <Form.Item>
+            <Input
+              name="email"
+              prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
+              placeholder="Email"
+            />
+          </Form.Item>
+          <Form.Item>
+            <Input
+              name="phone"
+              prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
+              placeholder="Phone"
+            />
+          </Form.Item>
+          <Form.Item>
+            "checkbox 'I agree....'"
           </Form.Item>
           <Form.Item>
             <Input
