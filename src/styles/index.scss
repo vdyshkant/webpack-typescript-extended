@@ -12,11 +12,29 @@
 
 // BEGIN test styles:
 
-.container {
-  padding-top: 2rem;
-  max-width: 1000px;
-  margin: 0 auto;
+.container--sample {
   border: 2px dashed crimson;
+  position: relative;
+
+  &::before {
+    content: '.container--sample';
+    background-color: greenyellow;
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+  }
+
+  hr {
+    position: relative;
+
+    &::before {
+      content: '<hr />';
+      background-color: greenyellow;
+      position: absolute;
+      left: 0;
+      bottom: 100%;
+    }
+  }
 }
 
 h1 {
@@ -29,7 +47,17 @@ h1 {
   background-repeat: no-repeat;
   height: 200px;
   width: 300px;
-  margin: 0 auto;
+  margin: 0 auto 10px;
+  position: relative;
+  outline: 1px dashed grey;
+
+   &::before {
+     content: '@/assets/logo.png';
+     background-color: greenyellow;
+     position: absolute;
+     left: 100%;
+     bottom: 45%;
+   }
 }
 
 $border: 1px solid darkcyan;

@@ -13,21 +13,24 @@ console.log('Post to String:', post.toString())
 
 const App = () => {
   return (
-    <div className="container">
+    <main>
 
       <ModalWindow />
 
       <Contact />
-      <h1>Webpack conf init</h1>
 
-      <hr/>
+      <div className="container  container--sample">
+        <h1>Webpack conf init</h1>
 
-      <div className="logo" />
+        <hr/>
 
-      <div className="card">
-        <h2>SCSS</h2>
+        <div className="logo" />
+
+        <div className="card">
+          <h2>SCSS</h2>
+        </div>
       </div>
-    </div>
+    </main>
   )
 }
 
