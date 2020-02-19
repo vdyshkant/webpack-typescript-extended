@@ -121,6 +121,7 @@ module.exports = {
     extensions: ['.js', '.jsx'],
     alias: {
       '@models': path.resolve(__dirname, 'src/models'),
+      '@components': path.resolve(__dirname, 'src/Components'),
       '@': path.resolve(__dirname, 'src')
     }
   },
